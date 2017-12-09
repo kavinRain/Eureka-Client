@@ -10,3 +10,9 @@ logging:
 spring:
   application:
     name: ClientService
+feign:
+  hystrix:
+    enabled: true
+
+
+
